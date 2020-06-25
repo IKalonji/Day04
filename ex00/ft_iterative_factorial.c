@@ -6,7 +6,7 @@
 /*   By: ikalonji <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/24 15:41:32 by ikalonji          #+#    #+#             */
-/*   Updated: 2020/06/24 17:08:14 by ikalonji         ###   ########.fr       */
+/*   Updated: 2020/06/25 08:50:32 by ikalonji         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,4 @@ int ft_iterative_factorial(int nb)
 	}
 	return factor;
 }
-int main(){
-	int nb;
-	nb = 5;
-	printf("%d", ft_iterative_factorial(nb));
-	return 0;
-}
+
